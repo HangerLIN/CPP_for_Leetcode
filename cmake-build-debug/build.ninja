@@ -55,6 +55,18 @@ build CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o: CXX_COMPILER__CPP_for_Leetcode
   OBJECT_DIR = CMakeFiles/CPP_for_Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles/CPP_for_Leetcode.dir
 
+build CMakeFiles/CPP_for_Leetcode.dir/Header.cpp.o: CXX_COMPILER__CPP_for_Leetcode_Debug /Users/lth/Desktop/CPP_for_Leetcode/Header.cpp || cmake_object_order_depends_target_CPP_for_Leetcode
+  DEP_FILE = CMakeFiles/CPP_for_Leetcode.dir/Header.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CPP_for_Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_for_Leetcode.dir
+
+build CMakeFiles/CPP_for_Leetcode.dir/string/Solution.cpp.o: CXX_COMPILER__CPP_for_Leetcode_Debug /Users/lth/Desktop/CPP_for_Leetcode/string/Solution.cpp || cmake_object_order_depends_target_CPP_for_Leetcode
+  DEP_FILE = CMakeFiles/CPP_for_Leetcode.dir/string/Solution.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CPP_for_Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles/CPP_for_Leetcode.dir/string
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPP_for_Leetcode
@@ -63,7 +75,7 @@ build CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o: CXX_COMPILER__CPP_for_Leetcode
 #############################################
 # Link the executable CPP_for_Leetcode
 
-build CPP_for_Leetcode: CXX_EXECUTABLE_LINKER__CPP_for_Leetcode_Debug CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o
+build CPP_for_Leetcode: CXX_EXECUTABLE_LINKER__CPP_for_Leetcode_Debug CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o CMakeFiles/CPP_for_Leetcode.dir/Header.cpp.o CMakeFiles/CPP_for_Leetcode.dir/string/Solution.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/CPP_for_Leetcode.dir
   POST_BUILD = :

@@ -53,13 +53,13 @@ void merge_sort(std::vector<int>& arr, int l, int r){
 //EXPECT_EQ(std::vector<int>{2, 3, 5, 6, 7, 9, 10, 11, 12, 14}, std::vector<int>(arr, arr + 10));
 //}
 
-int main() {  
-    std::vector<int> arr = {9, 7, 5, 11, 12, 2, 14, 3, 10, 6};  
-    quickSort(arr, 0, arr.size() - 1);
-    merge_sort(arr,0,arr.size()-1);
-    for (auto& num : arr) {  
-        std::cout << num << " ";  
-    }  
-    std::cout << std::endl;  
-    return 0;  
-}
+//int main() {
+//    std::vector<int> arr = {9, 7, 5, 11, 12, 2, 14, 3, 10, 6};
+//    quickSort(arr, 0, arr.size() - 1);
+//    merge_sort(arr,0,arr.size()-1);
+//    for (auto& num : arr) {
+//        std::cout << num << " ";
+//    }
+//    std::cout << std::endl;
+//    return 0;
+//}

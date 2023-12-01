@@ -1,3 +1,7 @@
 # ninja log v5
-1	484	1699520482573389950	CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o	a67812f2f994a730
-485	575	1699520482679390327	CPP_for_Leetcode	f4b7b1f0618db3a2
+1	436	1700108228575487807	CMakeFiles/CPP_for_Leetcode.dir/string/Solution.cpp.o	26fdc5b015274128
+1	2375	1700105656036026342	CMakeFiles/CPP_for_Leetcode.dir/Tree/Header.cpp.o	289593edb5baa38a
+7	67	1700654386824343761	build.ninja	2d7a39aa3bf6ce0
+1	2752	1700481086491010284	CMakeFiles/CPP_for_Leetcode.dir/Header.cpp.o	5179c26bdc1f9e26
+2752	2848	1700481086588016659	CPP_for_Leetcode	7cefc25236551c4e
+1	349	1700105673925345820	CMakeFiles/CPP_for_Leetcode.dir/sort.cpp.o	a67812f2f994a730
