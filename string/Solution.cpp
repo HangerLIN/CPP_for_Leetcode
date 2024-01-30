@@ -6,6 +6,7 @@
 using namespace std;
 #include "iostream"
 
+
 int main(){
     Solution solution;
     string haystack = "hello", needle = "ABACABAB";
